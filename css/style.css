@@ -9958,6 +9958,50 @@ h6,
   background: #44425A;
 }
 
+
+.gallery-carousel .owl-item img {
+  width: 70%;
+  margin: auto;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+@media only screen and (max-width:778px) {
+  .gallery-carousel .owl-item img {
+    width: 90%;
+  }
+}
+
+.gallery-carousel .owl-dots {
+  margin-top: 25px;
+  text-align: center;
+}
+
+.gallery-carousel .owl-dot {
+  position: relative;
+  display: inline-block;
+  margin: 0 8px;
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  background: #007bff;
+}
+
+.gallery-carousel .owl-dot::after {
+  position: absolute;
+  content: "";
+  top: -5px;
+  right: -5px;
+  bottom: -5px;
+  left: -5px;
+  border: 2px solid #007bff;
+  border-radius: 20px;
+}
+
+.gallery-carousel .owl-dot.active {
+  background: #44425A;
+}
+
 .blog-item img {
   transition: .5s;
 }

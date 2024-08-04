@@ -41,6 +41,15 @@
         loop: true,
         items: 1
     });
+
+    // Gallery carousel
+    $(".gallery-carousel").owlCarousel({
+        autoplay: true,
+        smartSpeed: 1500,
+        dots: true,
+        loop: true,
+        items: 1
+    });
     
 })(jQuery);
 
