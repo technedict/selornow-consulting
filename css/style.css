@@ -53,6 +53,11 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block;
 }
 
+.foot{
+  background-color: #007bff !important; 
+  height: 15% !important;
+}
+
 body {
   margin: 0;
   font-family: var(--font-family-poppins);
@@ -6939,10 +6944,6 @@ button.bg-dark:focus {
   align-self: stretch !important;
 }
 
-.foot{
-  background-color: #007bff !important; 
-  height: 155px;
-}
 @media (min-width: 576px) {
   .flex-sm-row {
     flex-direction: row !important;
@@ -9064,10 +9065,6 @@ button.bg-dark:focus {
 }
 
 @media (min-width: 1200px) {
-  .foot{
-    background-color: #007bff !important; 
-    height: 155px !important;
-  }
   .m-xl-0 {
     margin: 0 !important;
   }
@@ -9467,6 +9464,13 @@ button.bg-dark:focus {
   }
   .text-sm-center {
     text-align: center !important;
+  }
+}
+
+@media only screen and (min-width:778px) and (max-width:996px) {
+  .text-md-left {
+    text-align: left !important;
+    top: 24px;
   }
 }
 
