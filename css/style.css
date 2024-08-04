@@ -64,6 +64,7 @@ body {
   background-color: #fff;
 }
 
+
 [tabindex="-1"]:focus:not(:focus-visible) {
   outline: 0 !important;
 }
@@ -6938,6 +6939,10 @@ button.bg-dark:focus {
   align-self: stretch !important;
 }
 
+.foot{
+  background-color: #007bff !important; 
+  height: 155px;
+}
 @media (min-width: 576px) {
   .flex-sm-row {
     flex-direction: row !important;
@@ -9059,6 +9064,10 @@ button.bg-dark:focus {
 }
 
 @media (min-width: 1200px) {
+  .foot{
+    background-color: #007bff !important; 
+    height: 155px !important;
+  }
   .m-xl-0 {
     margin: 0 !important;
   }
