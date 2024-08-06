@@ -9960,7 +9960,8 @@ h6,
 
 
 .gallery-carousel .owl-item img {
-  width: 70%;
+  width: 75%;
+  height: 400px;
   margin: auto;
   margin-bottom: 20px;
   border-radius: 10px;
