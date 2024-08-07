@@ -323,6 +323,10 @@ legend {
   white-space: normal;
 }
 
+body > div:nth-child(1) > div > div.col-lg-3.d-none.d-lg-block > h5{
+  color: #00ffff;
+}
+
 @media (max-width: 1200px) {
   legend {
     font-size: calc(1.275rem + 0.3vw) ;
@@ -4300,6 +4304,7 @@ input[type="button"].btn-block {
   .navbar-expand-lg .navbar-collapse {
     display: flex !important;
     flex-basis: auto;
+    margin-top: 15px;
   }
   .navbar-expand-lg .navbar-toggler {
     display: none;
